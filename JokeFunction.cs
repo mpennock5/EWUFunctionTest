@@ -24,7 +24,6 @@ namespace EWU.Function
             var JokeService = new JokeService();
             var joke = JokeService.GetJoke();
             var response = req.CreateResponse(HttpStatusCode.OK);
-            //response.WriteString(joke.Setup + " " + joke.Punchline);
             await response.WriteAsJsonAsync(joke);
             return response;    
             // var response = req.CreateResponse(HttpStatusCode.OK);
