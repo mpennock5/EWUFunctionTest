@@ -6,6 +6,9 @@
                 "isEnabled": false
             },
             "enableLiveMetricsFilters": true
+        },
+        "logLevel": {
+            "default": "Information"
         }
     }
 }
